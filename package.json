@@ -8,7 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "build:elements": "ng build --prod --output-hashing none && node build-component.js",
-    "preinstall": "npm install -g @angular/cli@latest",
+    "preinstall": "npm install -g @angular/cli@latest && npm install --save-dev @angular-devkit/build-angular",
     "postinstall": "ng build --prod",
     "heroku-postbuild": "ng build --prod"
   },
